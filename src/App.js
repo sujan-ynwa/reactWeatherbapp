@@ -11,7 +11,7 @@ const App = () => {
     return ( 
         <div>
             <div className="header">
-                <h1>Find your weather today!!</h1>
+                <h1>Find your weather !!!</h1>
             {/* <HookCounter />*/}
              </div>
             <div>
