@@ -83,7 +83,7 @@ const SearchForm = () => {
         <div>
             <div>
                 <form className="search-form" onSubmit={submitForm} >
-                    <input className="search-bar" type="text" onChange={updateSearch} value={search} />
+                    <input className="search-bar" type="text" placeholder="Enter your city name" onChange={updateSearch} value={search} />
                     <button type="submit" className="search-button">Serach</button>
                 </form>
             </div>
