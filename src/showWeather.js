@@ -10,7 +10,7 @@ const Weather = ({ temp, pressure, feels_like, humidity, cityName, icon }) => {
 
              <div>
                 <h1>{cityName} </h1>
-                <h2>Temperatue: {temp}  &#176;c</h2>
+                <h2>Temperature: {temp}  &#176;c</h2>
                 <h2>Feels like: {feels_like}</h2>
                 <h2>Pressure: {pressure}</h2>
                 <h2>Humidity: {humidity}</h2>
